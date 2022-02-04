@@ -1,0 +1,563 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900&display=swap');
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+/*header nav and main information*/
+.sec1{
+	position: relative;
+	width: 100%;
+	/*min-height: 100vh;*/
+	padding-left: 10%;
+	padding-right: 1%;	
+	padding-top: 100px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	min-height: 42px;
+	padding-left: 10%;
+	padding-right: 10%;	
+	padding-top: 40px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+header .logo{
+	position: relative;
+	font-family: Nunito, sans-serif;
+	font-weight: 700;
+	font-size: 24px;
+	line-height: 32px;
+	margin-right: auto;
+}
+
+
+header .nav1{
+	position: relative;
+	display: flex;
+	list-style: none;
+	margin-right: 128px;
+}
+
+
+header .login{
+	position: relative;
+	display: flex;
+	list-style: none;
+}
+header .nav1 a{
+	text-decoration: none;
+	color: #000000;
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	padding-left: 48px;	
+}
+header .login a{
+	text-decoration: none;
+	color: #000000;
+	font-family: "DM Sans", sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 20px;
+	/*padding-left: 48px;*/	
+}
+header .login li:nth-child(2){
+	padding-left: 48px;
+}
+header .login a span {
+	padding: 12px 16px 12px 16px;
+	border-radius: 4px;
+	color: #ffffff;
+	background: #066F14;
+}
+
+.sec1 .content{
+	width: 100%;
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+.sec1 .textHolder{
+	width: 548px;
+	position: relative;
+	/*top: -91px;*/
+	
+}
+
+.sec1 .content .textHolder h1{
+	font-family: Nunito, sans-serif;
+	font-weight: 700;
+	font-size: 72px;
+	line-height: 92px;
+}
+.sec1 .content .textHolder p, a{
+	font-family: "DM Sans", sans-serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 26px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.sec1 .content .textHolder p{
+	margin-top: 24px;
+	margin-bottom: 40px;
+}
+.sec1 .content .textHolder a{
+	display: inline-block;
+	padding: 16px 32px;
+	background: #066F14;
+	color: #ffffff;
+	text-decoration: none;
+	border-radius: 4px;
+}
+.sec1 .content .textHolder .num{
+	display: flex;
+	width: 548px;
+	align-items: center;
+	justify-content: space-between;
+	margin-top: 60px;
+}
+.sec1 .content .textHolder .num div span{
+	font-family: Nunito;
+	font-size: 36px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 49px;
+	letter-spacing: 0em;
+	text-align: left;
+}
+.sec1 .content .textHolder .num div{
+	font-family: "DM Sans", sans-serif;	
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	letter-spacing: 0em;
+	text-align: center;
+}
+
+/*We have lots of plants collection for you and your family*/
+.sec2{
+	position: relative;
+	width: 100%;
+	/*min-height: 100vh;*/
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-left: 10%;
+	padding-right: 10%;
+	margin-top: 80px;	
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	font-family: Nunito;
+}
+.sec2 .textHolder2{
+	/*width: 28%;*/
+	width: 398px;
+	font-size: 30px;
+	line-height: 49px;
+	margin-right: auto;
+}
+.sec2 .textHolder2 a{
+	display: inline-block;
+	font-family: "DM Sans", sans-serif;	
+	font-size: 18px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: 24px;
+	margin-top: 37px;
+	text-decoration: none;
+	color: black;
+}
+.sec2 .plantSec2{
+	display: inline-block;
+	padding: 25px;
+	background: #F6EDE8;
+	margin-left: 24px;
+
+}
+.sec2 .plantSec2:nth-child(1){
+	background: #F6EDE8;
+}
+.sec2 .plantSec2:nth-child(2){
+	background: #F0F1F6;
+
+}
+.sec2 .plantSec2:nth-child(3){
+	background: #F6EDE8;
+
+}
+
+
+/*About Us section*/
+
+.sec3{
+	position: relative;
+	width: 100%;
+	padding-left: 12%;
+	padding-right: 12%;	
+	/*padding-top: 100px;*/
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 128px;
+
+}
+.sec3 .textSec3{
+	width: 504px;
+	font-family: "DM Sans", sans-serif;	
+	height: 480px;
+}
+.sec3 .textSec3 h3{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 23px;
+	color: #066F14;
+}
+.sec3 .textSec3 h2{
+	font-family: Nunito, sans-serif;	
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 50px;
+}
+.sec3 .textSec3 .pLittle{
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 26px;
+	line-height: 160%;
+	color: #4A4A4A;
+	text-align: justify;
+	margin-top: 24px;
+}
+.sec3 .textSec3 .pBig{
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 29px;
+	line-height: 160%;
+	color: #4A4A4A;
+	text-align: justify;
+	margin-top: 16px;
+}
+.sec3 .textSec3 a{
+	position: absolute;
+	bottom: 0;
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	padding: 16px 32px;
+	border-radius: 4px;
+	background: #066F14;
+	margin-top: 36px;
+}
+.sec3 img{
+	display: inline-block;
+	margin-top: 40px;
+	margin-left: 70px;
+	box-shadow: -70px -40px #066F14;
+}
+
+/*Best products section*/
+.sec4{
+	position: relative;
+	width: 100%;
+	padding-left: 10%;
+	padding-right: 10%;	
+	margin-top: 128px;
+}
+.sec4 h2{
+	text-align: center;
+	font-family: Nunito, sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #1A1A1A;
+	
+}
+.sec4 ul {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+	list-style: none;
+	width: 20%;
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 24px;
+}
+.sec4 ul a{
+
+	text-decoration: none;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 21px;
+	color: #4A4A4A;
+
+}
+.sec4 ul a.active{
+	color: #066F14;
+}
+.sec4 .plantHolder{
+	display: flex;
+	justify-content: space-between;
+
+}
+
+.sec4 .sec4Plant{
+	width: 23%;
+	height: 283px;
+/*	border: 3px solid black;*/
+	margin-top: 48px;
+}
+
+.sec4 .sec4Plant > .plantsec4 {
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+	height: 153px;
+}
+.sec4 .plantHolder .sec4Plant .innerDivSec4{
+	font-family: Nunito, sans-serif;
+	color: #1A1A1A;	
+	padding-left: 32px;
+	padding-top: 12px;
+}
+.sec4 .sec4Plant .innerDivSec4 p.name{
+	font-size: 24px;
+	line-height: 28px;
+	margin-bottom: 11px;
+}
+
+.sec4 .sec4Plant .innerDivSec4 .star{
+	margin-bottom: 14px;
+}
+.sec4 .sec4Plant .innerDivSec4 p.price{
+		font-size: 16px;
+		line-height: 19px;
+		margin-bottom: 11px;
+}
+.sec4 .plantHolder .outdoor{
+	background: #eaf2e5;
+}
+.sec4 .plantHolder .monstera{
+	background: #f0ebe6;
+}
+.sec4 .plantHolder .pottel{
+	background: #E2ECE4;
+}
+.sec4 .plantHolder .indoor{
+	background: #E7EEED;
+}
+.sec4 .aHolder{
+	width: 100%;
+	display: flex;
+	justify-content: center;
+}
+.sec4 .view{
+	text-decoration: none;
+	color: #ffffff;
+	display: inline-block;
+	padding: 16px 32px;
+	border-radius: 4px;
+	background: #066F14;
+	margin-top: 40px; 
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+
+}
+
+/*section 6*/
+.sec6{
+	position: relative;
+	width: 100%;
+	padding-left: 12%;
+	padding-right: 12%;		
+	/*display: flex;*/
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 128px;
+}
+.sec6 .conteiner {
+	position: relative;
+	padding-top: 60px;
+	border-radius: 6px;
+	padding-left: 59px;
+	padding-bottom: 60px;
+	background: #DFFFE3;
+}
+.sec6 h2{
+	font-family: Nunito, sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	line-height: 50px;
+	color: #1A1A1A;
+}
+.sec6 p{
+	font-family: Nunito;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 25px;
+	width: 452px;
+	margin-top: 12px;
+}
+.sec6 .conteiner .textSec6 .field{
+	margin-top: 30px;
+	width: 451px;
+	height: 56px;
+	background: #ffffff;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border-radius: 4px;
+	font-family: "DM Sans";
+	padding-right: 8px;
+}
+.sec6 .textSec6 .field input{
+	height: 100%;
+	width: 100%;
+	outline: none;
+	padding-left: 19px;
+	border: none;
+}
+.sec6 .textSec6 .field label.btn{
+	padding: 11px 16px;
+	background: #066F14;
+	border-radius: 4px;
+	color: #ffffff;
+	cursor: pointer;
+}
+.sec6 .conteiner .imgHold{
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	right: 24px;
+}
+/*Follow us on Instagram*/
+.sec7 {
+	text-align: center;
+	position: relative;
+	width: 100%;
+	padding-left: 12%;
+	padding-right: 12%;		
+	/*display: flex;*/
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 79px;
+}
+.sec7 h2{
+	font-family: Nunito, sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	line-height: 57px;
+	color: #1A1A1A
+}
+
+.sec7 p{
+	
+	font-family: Nunito;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 25px;
+	width: 544px;
+	margin-top: 12px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.sec7 .picHolder{
+	display: flex;
+	margin-top: 40px;
+}
+.sec7 .black {
+	position: relative;
+}
+.sec7 .black .blackR{
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+.sec7 .black .ins{
+	position: absolute;
+	top: 87px;
+	left: 81px;
+}
+/*Footer*/
+.footer {
+	position: relative;
+	width: 100%;
+	height: 203px;
+	/*min-height: 100vh;*/
+	padding-left: 10%;
+	padding-right: 10%;	
+	margin-top: 128px;
+	margin-bottom: 98px;
+	display: flex;
+	justify-content: space-between;
+	/*align-items: center;*/
+}
+.footer h4{
+	margin-top: 0;
+	font-family: "DM Sans", sans-serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 31px;
+	color: #1A1A1A;
+}
+.footer p{
+	font-family: Nunito;
+	font-size: 16px;
+	font-style: normal;
+	line-height: 25px;
+	width: 306px;
+	margin-top: 24px;
+	margin-bottom: 22px;
+
+}
+.footer .plantF {
+	margin-right: auto;
+}
+.footer .plantF a{
+	position: relative;
+	display: inline-block;
+	margin-right: 16px;
+	width: 48px;
+	height: 48px;
+	background: #EDFFDD;
+	border-radius: 4px;
+
+}
+.footer .plantF a > img {
+	position: absolute;
+    margin: auto;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+}
+.footer div:nth-child(3){
+	margin-left: 128px;
+}
+.footer div:nth-child(4){
+	margin-left: 128px;
+}
+.footer div ul{
+	list-style: none;
+	margin-top: 24px;
+}
+.footer div ul a{
+	text-decoration: none;
+	color: #5A5A5A;
+}
